@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://everkindhc.com/sitemap.xml
