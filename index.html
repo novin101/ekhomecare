@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 
   <!-- Primary SEO -->
-  <title>Ever Kind Home Care | Non-Medical Home Care in Orange County, CA</title>
- <meta name="description" content="Ever Kind Home Care provides compassionate non-medical home care services throughout Orange County, CA. We offer companionship, personal care, respite care, meal preparation, mobility assistance, and daily living support." />
+  <title>Home Care &amp; Caregivers in Orange County, CA | Ever Kind Home Care</title>
+ <meta name="description" content="Ever Kind Home Care provides trusted in-home caregivers and non-medical home care across Orange County, CA: companionship, personal care, respite care, meal preparation and more. Licensed HCO #304700537. Call (949) 391-3041." />
   <link rel="canonical" href="https://everkindhc.com/" />
   <meta name="robots" content="index, follow" />
 
@@ -18,7 +18,7 @@
   <link rel="manifest" href="/site.webmanifest" />
 
   <!-- Open Graph / Social Sharing -->
-  <meta property="og:title" content="Ever Kind Home Care | Orange County Home Care" />
+  <meta property="og:title" content="Home Care &amp; Caregivers in Orange County, CA | Ever Kind Home Care" />
   <meta property="og:description" content="Compassionate non-medical home care for seniors and families in Orange County, California." />
   <meta property="og:image" content="https://everkindhc.com/hero-care.jpg" />
   <meta property="og:url" content="https://everkindhc.com/" />
@@ -112,6 +112,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Figtree:ital,wght@0,400;0,500;0,600;1,800&family=Newsreader:ital,opsz,wght@1,6..72,400;1,6..72,500&display=swap">
 <style>
+img{max-width:100%}[hidden]{display:none!important}body{margin:0}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 /* Layout: airy split hero on a teal-to-sage wash (from the logo's heart), then alternating white / mist bands; serif italic only for the brand's "always home" voice */
 :root{
   --bg:#FBFCFA;
@@ -200,11 +201,11 @@ header.site{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;backgrou
 .hero-copy{position:relative;overflow:hidden;border-radius:var(--r-lg);padding:56px 52px 44px;background:
   radial-gradient(120% 90% at 0% 0%,color-mix(in srgb,var(--teal) 16%,transparent),transparent 60%),
   radial-gradient(90% 80% at 100% 100%,color-mix(in srgb,var(--sage) 24%,transparent),transparent 60%),var(--wash);display:flex;flex-direction:column;gap:26px;min-width:0}
-.badge{align-self:flex-start;display:inline-flex;align-items:center;gap:10px;padding:8px 14px 8px 8px;border-radius:999px;background:var(--surface);border:1px solid var(--line);font:500 14px/1.2 var(--f-display);color:var(--ink)}
+.badge{margin:0;letter-spacing:0;line-height:1.2;font-weight:600;align-self:flex-start;display:inline-flex;align-items:center;gap:10px;padding:8px 14px 8px 8px;border-radius:999px;background:var(--surface);border:1px solid var(--line);font:500 14px/1.2 var(--f-display);color:var(--ink)}
 .badge i{display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--sage);color:#fff;font-style:normal}
 .badge i .ico{width:16px;height:16px;stroke-width:2.4}
-.hero h1{font-size:clamp(40px,5.4vw,68px);font-weight:500;letter-spacing:-.035em;color:var(--ink)}
-.hero h1 .voice{font-size:1.06em;color:var(--teal)}
+.hero .display{margin:0;font-family:var(--f-display);line-height:1.08;text-wrap:balance;font-size:clamp(40px,5.4vw,68px);font-weight:500;letter-spacing:-.035em;color:var(--ink)}
+.hero .display .voice{font-size:1.06em;color:var(--teal)}
 .lede{font-size:18.5px;color:var(--muted);max-width:52ch}
 .finder{display:flex;flex-direction:column;gap:10px;max-width:500px}
 .finder label{font:600 14px/1 var(--f-display);color:var(--ink)}
@@ -360,7 +361,7 @@ form.care{margin-top:28px;display:grid;grid-template-columns:1fr 1fr;gap:18px}
 
 /* footer */
 footer{padding-block:64px 40px;border-top:1px solid var(--line)}
-.foot{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px}
+.foot{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:40px}
 .foot p{color:var(--muted);font-size:15.5px;max-width:40ch;margin-top:18px}
 .foot h4{margin:0 0 14px;font:600 14px/1 var(--f-display);text-transform:uppercase;letter-spacing:.12em;color:var(--sage-ink)}
 .foot ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px}
@@ -481,9 +482,9 @@ footer{padding-block:64px 40px;border-top:1px solid var(--line)}
   <section class="hero">
     <div class="wrap hero-grid">
       <div class="hero-copy">
-        <span class="badge"><i><svg class="ico"><use href="#i-check"/></svg></i>California Licensed Home Care Organization</span>
-        <h1>Compassionate care that keeps your loved one <span class="voice">always home.</span></h1>
-        <p class="lede">Reliable, non-medical home care for Orange County families who want trusted support, clear communication and peace of mind.</p>
+        <h1 class="badge"><i><svg class="ico"><use href="#i-check"/></svg></i>Home Care &amp; Caregivers in Orange County, CA</h1>
+        <p class="display">Compassionate care that keeps your loved one <span class="voice">always home.</span></p>
+        <p class="lede">Licensed, bonded and insured in-home caregivers for Orange County families who want trusted support, clear communication and peace of mind.</p>
         <form class="finder" id="finder" novalidate>
           <label for="area">Check if we serve your area</label>
           <div class="finder-row">
@@ -524,7 +525,7 @@ footer{padding-block:64px 40px;border-top:1px solid var(--line)}
           <span class="eyebrow">Home care services</span>
           <h2>Everyday support, given <span class="voice">with kindness.</span></h2>
         </div>
-        <p>Non-medical care designed to help your loved one stay safe, comfortable and independent at home.</p>
+        <p>Our caregivers provide non-medical home care that helps your loved one stay safe, comfortable and independent at home.</p>
       </div>
       <div class="services">
         <article class="svc"><div class="svc-ico"><svg class="ico"><use href="#i-users"/></svg></div><h3>Companionship</h3><p>Friendly conversation, activities, supervision, emotional support and help reducing isolation.</p></article>
@@ -703,6 +704,10 @@ footer{padding-block:64px 40px;border-top:1px solid var(--line)}
       <div>
         <h4>Services</h4>
         <ul><li><a href="#services">Companionship</a></li><li><a href="#services">Personal Care</a></li><li><a href="#services">Meal Preparation</a></li><li><a href="#services">Respite Care</a></li></ul>
+      </div>
+      <div>
+        <h4>Areas we serve</h4>
+        <ul><li><a href="/mission-viejo-home-care.html">Home care in Mission Viejo</a></li><li><a href="/lake-forest-home-care.html">Home care in Lake Forest</a></li><li><a href="/rancho-santa-margarita-home-care.html">Home care in Rancho Santa Margarita</a></li><li><a href="/irvine-home-care.html">Home care in Irvine</a></li><li><a href="/laguna-niguel-home-care.html">Home care in Laguna Niguel</a></li><li><a href="/aliso-viejo-home-care.html">Home care in Aliso Viejo</a></li><li><a href="/dana-point-home-care.html">Home care in Dana Point</a></li><li><a href="/san-juan-capistrano-home-care.html">Home care in San Juan Capistrano</a></li></ul>
       </div>
       <div>
         <h4>Contact</h4>
