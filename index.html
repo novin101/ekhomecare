@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 
   <!-- Primary SEO -->
   <title>Ever Kind Home Care | Non-Medical Home Care in Orange County, CA</title>
@@ -20,14 +20,10 @@
   <!-- Open Graph / Social Sharing -->
   <meta property="og:title" content="Ever Kind Home Care | Orange County Home Care" />
   <meta property="og:description" content="Compassionate non-medical home care for seniors and families in Orange County, California." />
-  <meta property="og:image" content="https://everkindhc.com/slide1.jpg" />
+  <meta property="og:image" content="https://everkindhc.com/hero-care.jpg" />
   <meta property="og:url" content="https://everkindhc.com/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Ever Kind Home Care" />
-
-  <!-- Icons -->
-  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
   <!-- Local Business + FAQ Schema -->
   <script type="application/ld+json">
@@ -36,8 +32,8 @@
     "@type": "LocalBusiness",
     "name": "Ever Kind Home Care",
     "url": "https://everkindhc.com/",
-    "logo": "https://everkindhc.com/ek-logo-may18.png",
-    "image": "https://everkindhc.com/slide1.jpg",
+    "logo": "https://everkindhc.com/ek-logo.png",
+    "image": "https://everkindhc.com/hero-care.jpg",
     "description": "Ever Kind Home Care provides compassionate non-medical home care services in Orange County, California.",
     "telephone": "+1-949-391-3041",
     "email": "admin@everkindhc.com",
@@ -51,7 +47,8 @@
       "Laguna Niguel, CA",
       "Aliso Viejo, CA",
       "Dana Point, CA",
-      "San Juan Capistrano, CA"
+      "San Juan Capistrano, CA",
+      "Laguna Hills, CA"
     ],
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
@@ -109,834 +106,679 @@
   }
   </script>
 
-  <!-- Optional: add Google Analytics / Google Ads conversion tracking here after setup. -->
+    <!-- Optional: add Google Analytics / Google Ads conversion tracking here after setup. -->
 
-  <style>
-    :root {
-      --brand: #0f766e;
-      --brand-dark: #115e59;
-      --text: #1f2937;
-      --heading: #0f172a;
-      --muted: #475569;
-      --soft: #f8fafc;
-      --line: #e2e8f0;
-      --white: #ffffff;
-      --shadow: 0 8px 24px rgba(0,0,0,0.08);
-      --radius: 20px;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      color: var(--text);
-      background: var(--soft);
-      line-height: 1.6;
-    }
-
-    img {
-      max-width: 100%;
-      display: block;
-    }
-
-    a {
-      color: inherit;
-    }
-
-    .top-bar {
-      background: var(--brand-dark);
-      color: white;
-      text-align: center;
-      padding: 8px 5%;
-      font-size: 15px;
-      font-weight: 700;
-    }
-
-    .top-bar a {
-      color: white;
-      text-decoration: underline;
-    }
-
-    header {
-      background: white;
-      padding: 8px 8%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-      position: sticky;
-      top: 0;
-      z-index: 20;
-    }
-
-    .logo img {
-      height: 95px;
-      width: auto;
-    }
-
-    nav {
-      display: flex;
-      align-items: center;
-      gap: 22px;
-      flex-wrap: wrap;
-      justify-content: flex-end;
-    }
-
-    nav a {
-      text-decoration: none;
-      color: var(--text);
-      font-weight: bold;
-      font-size: 15px;
-    }
-
-    nav a:hover {
-      color: var(--brand);
-    }
-
-    .nav-phone {
-      background: var(--brand);
-      color: white !important;
-      padding: 11px 18px;
-      border-radius: 999px;
-    }
-
-    .hero {
-  min-height: 550px;
-  position: relative;
-  color: white;
-  display: flex;
-  align-items: center;
-  padding: 0 8%;
-  overflow: hidden;
-
-  background-image:
-    linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
-    url("Edited.png");
-
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-color: #0f172a;
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Figtree:ital,wght@0,400;0,500;0,600;1,800&family=Newsreader:ital,opsz,wght@1,6..72,400;1,6..72,500&display=swap">
+<style>
+/* Layout: airy split hero on a teal-to-sage wash (from the logo's heart), then alternating white / mist bands; serif italic only for the brand's "always home" voice */
+:root{
+  --bg:#FBFCFA;
+  --surface:#FFFFFF;
+  --mist:#EDF4F3;
+  --wash:#F2F6EC;
+  --line:#DCE6E4;
+  --ink:#15334A;
+  --muted:#4E6474;
+  --blue:#1E5A80;
+  --blue-deep:#174A6A;
+  --teal:#2E8A92;
+  --sage:#8FAE72;
+  --sage-ink:#55753C;
+  --taupe:#B8AC8E;
+  --on-blue:#FFFFFF;
+  --brand-navy:#153254;
+  --brand-green:#5E9E61;
+  --shadow:0 18px 40px -22px rgba(21,51,74,.35);
+  --f-display:"Outfit",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-body:"Figtree",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-voice:"Newsreader",Georgia,"Times New Roman",serif;
+  --r-lg:28px; --r-md:18px; --r-sm:12px;
+  --wrap:1180px;
 }
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0E1A21;--surface:#14242D;--mist:#132A31;--wash:#18291F;--line:#24404A;
+  --ink:#E5EEF1;--muted:#A3B6C0;--blue:#7DB4D6;--blue-deep:#9CC8E3;--teal:#6CC2C6;
+  --sage:#A6C78A;--sage-ink:#B3D398;--taupe:#C9BE9F;--on-blue:#0E1A21;--brand-navy:#DCE8F5;--brand-green:#9ED19F;
+  --shadow:0 18px 40px -22px rgba(0,0,0,.7);color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E1A21;--surface:#14242D;--mist:#132A31;--wash:#18291F;--line:#24404A;
+  --ink:#E5EEF1;--muted:#A3B6C0;--blue:#7DB4D6;--blue-deep:#9CC8E3;--teal:#6CC2C6;
+  --sage:#A6C78A;--sage-ink:#B3D398;--taupe:#C9BE9F;--on-blue:#0E1A21;--brand-navy:#DCE8F5;--brand-green:#9ED19F;
+  --shadow:0 18px 40px -22px rgba(0,0,0,.7);color-scheme:dark}
 
-    .hero-content {
-      position: relative;
-      z-index: 2;
-      max-width: 830px;
-    }
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:96px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--surface)}
+a{color:inherit}
+h1,h2,h3{font-family:var(--f-display);font-weight:600;letter-spacing:-.02em;line-height:1.08;margin:0;text-wrap:balance}
+p{margin:0}
+.voice{font-family:var(--f-voice);font-style:italic;font-weight:400;letter-spacing:-.01em;color:var(--teal)}
+.wrap{max-width:var(--wrap);margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+.ico{width:22px;height:22px;flex:none;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+:focus-visible{outline:3px solid var(--teal);outline-offset:3px;border-radius:8px}
 
-    .eyebrow {
-      display: inline-block;
-      background: rgba(255,255,255,.14);
-      border: 1px solid rgba(255,255,255,.25);
-      padding: 8px 14px;
-      border-radius: 999px;
-      font-weight: 700;
-      margin-bottom: 18px;
-    }
+/* buttons */
+.btn{white-space:nowrap;display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:50px;padding:0 24px;border-radius:999px;font:600 16px/1 var(--f-display);text-decoration:none;border:1.5px solid transparent;cursor:pointer;transition:transform .2s ease,background .2s ease,box-shadow .2s ease}
+.btn .ico{width:19px;height:19px}
+.btn-primary{background:var(--blue);color:var(--on-blue);box-shadow:0 10px 24px -12px var(--blue)}
+.btn-primary:hover{background:var(--blue-deep);transform:translateY(-1px)}
+.btn-ghost{background:transparent;color:var(--blue);border-color:color-mix(in srgb,var(--blue) 35%,transparent)}
+.btn-ghost:hover{background:color-mix(in srgb,var(--blue) 8%,transparent)}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font:600 13px/1 var(--f-display);text-transform:uppercase;letter-spacing:.14em;color:var(--sage-ink)}
+.eyebrow::before{content:"";width:22px;height:2px;background:var(--sage);border-radius:2px}
 
-    .hero h1 {
-      font-size: clamp(40px, 6vw, 64px);
-      line-height: 1.08;
-      margin: 0 0 20px;
-    }
+/* header */
+header.site{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:color-mix(in srgb,var(--surface) 92%,transparent);backdrop-filter:saturate(1.4) blur(12px);-webkit-backdrop-filter:saturate(1.4) blur(12px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;gap:28px;min-height:80px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;flex:none}
+.brand img{width:62px;height:auto;display:block}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .brand img{background:#EAF2F0;border-radius:14px;padding:4px}}
+:root[data-theme="dark"] .brand img{background:#EAF2F0;border-radius:14px;padding:4px}
+.brand-text{display:flex;flex-direction:column;line-height:1}
+.brand-text b{font:italic 800 24px/1 var(--f-body);color:var(--brand-navy);letter-spacing:-.01em}
+.brand-text small{font:600 11px/1 var(--f-display);color:var(--brand-green);letter-spacing:.3em;margin-top:6px}
+.links{display:flex;gap:4px;margin-left:auto}
+.links a{white-space:nowrap;text-decoration:none;font:500 15.5px/1 var(--f-display);color:var(--ink);padding:12px 12px;border-radius:999px;transition:background .2s}
+.links a:hover{background:var(--mist)}
+.nav-cta{display:flex;align-items:center;gap:16px}
+.nav-phone{display:flex;align-items:center;gap:8px;text-decoration:none;font:600 16px/1 var(--f-display);color:var(--blue);white-space:nowrap}
+.nav-phone .ico{width:18px;height:18px}
+.menu-btn{display:none;margin-left:auto;width:48px;height:48px;border-radius:14px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;align-items:center;justify-content:center}
+.mobile-menu{border-top:1px solid var(--line);padding-block:12px 20px}
+.mobile-menu a{display:block;padding:14px 4px;font:500 18px/1.2 var(--f-display);text-decoration:none;border-bottom:1px solid var(--line)}
+.mobile-menu .btn{margin-top:16px;width:100%}
+@media (max-width:1240px){.links{display:none}.nav-cta{margin-left:auto}}
+@media (max-width:720px){.nav-cta{display:none}.menu-btn{display:inline-flex}.nav{min-height:70px}.brand img{width:52px}.brand-text b{font-size:20px}}
 
-    .hero p {
-      font-size: 21px;
-      max-width: 760px;
-      margin: 0 0 26px;
-    }
+/* hero */
+.hero{padding-block:28px 24px}
+.hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:20px}
+.hero-copy{position:relative;overflow:hidden;border-radius:var(--r-lg);padding:56px 52px 44px;background:
+  radial-gradient(120% 90% at 0% 0%,color-mix(in srgb,var(--teal) 16%,transparent),transparent 60%),
+  radial-gradient(90% 80% at 100% 100%,color-mix(in srgb,var(--sage) 24%,transparent),transparent 60%),var(--wash);display:flex;flex-direction:column;gap:26px;min-width:0}
+.badge{align-self:flex-start;display:inline-flex;align-items:center;gap:10px;padding:8px 14px 8px 8px;border-radius:999px;background:var(--surface);border:1px solid var(--line);font:500 14px/1.2 var(--f-display);color:var(--ink)}
+.badge i{display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--sage);color:#fff;font-style:normal}
+.badge i .ico{width:16px;height:16px;stroke-width:2.4}
+.hero h1{font-size:clamp(40px,5.4vw,68px);font-weight:500;letter-spacing:-.035em;color:var(--ink)}
+.hero h1 .voice{font-size:1.06em;color:var(--teal)}
+.lede{font-size:18.5px;color:var(--muted);max-width:52ch}
+.finder{display:flex;flex-direction:column;gap:10px;max-width:500px}
+.finder label{font:600 14px/1 var(--f-display);color:var(--ink)}
+.finder-row{display:flex;gap:6px;padding:6px;background:var(--surface);border:1px solid var(--line);border-radius:999px;box-shadow:var(--shadow)}
+.finder-row input{flex:1;min-width:0;border:0;background:transparent;padding:0 18px;font:500 16px var(--f-body);color:var(--ink);height:50px}
+.finder-row input:focus{outline:none}
+.finder-row:focus-within{border-color:var(--teal)}
+.finder-row .btn{min-height:50px;padding:0 20px}
+.finder-out{min-height:24px;font-size:15px;color:var(--muted)}
+.finder-out.ok{color:var(--sage-ink);font-weight:600}
+.finder-out.maybe{color:var(--blue);font-weight:600}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px}
 
-    .button-row {
-      display: flex;
-      gap: 15px;
-      flex-wrap: wrap;
-      align-items: center;
-    }
+.hero-art{position:relative;border-radius:var(--r-lg);overflow:hidden;background:linear-gradient(170deg,#DCEDEF 0%,#E8F0E2 100%);min-height:520px}
+.hero-photo{position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:cover;object-position:64% 40%}
+.float{position:absolute;display:flex;align-items:center;gap:12px;padding:12px 16px;border-radius:16px;background:var(--surface);border:1px solid var(--line);box-shadow:var(--shadow);font:500 14px/1.25 var(--f-display);color:var(--ink)}
+.float b{display:block;font-weight:600;font-size:15px}
+.float span{color:var(--muted);font-size:13px}
+.float .dot{display:grid;place-items:center;width:40px;height:40px;border-radius:12px;background:var(--mist);color:var(--teal)}
+.f1{left:22px;top:22px}
+.f2{right:22px;bottom:22px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .hero-art{background:linear-gradient(170deg,#1A3640 0%,#1D3328 100%)}}
+:root[data-theme="dark"] .hero-art{background:linear-gradient(170deg,#1A3640 0%,#1D3328 100%)}
 
-    .button {
-      display: inline-block;
-      padding: 15px 28px;
-      background: var(--brand);
-      color: white;
-      text-decoration: none;
-      border-radius: 999px;
-      font-weight: bold;
-      box-shadow: 0 10px 20px rgba(0,0,0,0.18);
-      border: none;
-      cursor: pointer;
-      font-size: 16px;
-    }
+/* trust strip */
+.trust{padding-block:28px 64px}
+.trust-grid{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.trust-item{padding:28px 24px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.trust-item+.trust-item{border-left:1px solid var(--line)}
+.trust-item small{font:500 14px/1.2 var(--f-display);color:var(--muted)}
+.trust-item strong{font:600 clamp(24px,2.5vw,32px)/1.1 var(--f-display);letter-spacing:-.03em;color:var(--ink);font-variant-numeric:tabular-nums}
+.trust-item strong em{font-style:normal;color:var(--teal)}
+.trust-item p{font-size:14.5px;color:var(--muted)}
 
-    .button:hover {
-      background: var(--brand-dark);
-    }
+/* sections */
+section.band{padding-block:96px}
+.band.mist{background:var(--mist)}
+.head{display:flex;justify-content:space-between;align-items:end;gap:32px;margin-bottom:48px;flex-wrap:wrap}
+.head>div{display:flex;flex-direction:column;gap:16px;max-width:640px}
+.head h2,.h2{font-size:clamp(34px,4.2vw,52px);font-weight:500;letter-spacing:-.03em}
+.head p{color:var(--muted);font-size:18px;max-width:46ch}
 
-    .button.secondary {
-      background: white;
-      color: var(--brand);
-    }
+/* services */
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.svc{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:var(--r-md);padding:30px 28px 28px;display:flex;flex-direction:column;gap:14px;transition:transform .25s ease,box-shadow .25s ease,border-color .25s}
+.svc:hover{transform:translateY(-3px);box-shadow:var(--shadow);border-color:color-mix(in srgb,var(--teal) 40%,var(--line))}
+.svc-ico{width:54px;height:54px;border-radius:16px;display:grid;place-items:center;background:var(--mist);color:var(--blue)}
+.svc:nth-child(even) .svc-ico{background:var(--wash);color:var(--sage-ink)}
+.svc-ico .ico{width:26px;height:26px}
+.svc h3{font-size:23px;font-weight:600}
+.svc p{color:var(--muted);font-size:16px}
+.svc-note{margin-top:22px;font-size:15px;color:var(--muted);display:flex;gap:10px;align-items:flex-start}
+.svc-note .ico{color:var(--teal);width:20px;height:20px;margin-top:3px}
 
-    .button.secondary:hover {
-      background: #ecfeff;
-    }
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;counter-reset:s}
+.step{position:relative;padding:32px 28px;border-radius:var(--r-md);background:var(--surface);border:1px solid var(--line);display:flex;flex-direction:column;gap:12px}
+.step-n{font:500 15px/1 var(--f-display);color:var(--teal);letter-spacing:.06em;display:flex;align-items:center;gap:12px}
+.step-n::after{content:"";flex:1;height:1px;background:var(--line)}
+.step h3{font-size:24px}
+.step p{color:var(--muted);font-size:16px}
+.step a{color:var(--blue);font-weight:600;text-decoration:none}
 
-    .trust-line {
-      margin-top: 24px;
-      font-size: 17px;
-      font-weight: bold;
-    }
+/* about */
+.about{display:grid;grid-template-columns:.95fr 1.05fr;gap:56px;align-items:center}
+.promise{position:relative;border-radius:var(--r-lg);padding:56px 48px;background:var(--blue);color:#fff;overflow:hidden;min-width:0}
+.promise::after{content:"";position:absolute;right:-60px;bottom:-60px;width:260px;height:240px;background:url("/ek-icon.png") center/contain no-repeat;opacity:.12;filter:brightness(4) saturate(0)}
+.promise .eyebrow{color:#CFE3C0}
+.promise .eyebrow::before{background:#CFE3C0}
+.promise blockquote{margin:22px 0 0;font:400 clamp(26px,2.8vw,34px)/1.3 var(--f-voice);font-style:italic;letter-spacing:-.01em;position:relative;z-index:1}
+.promise figcaption{margin-top:26px;font:500 15px/1.4 var(--f-display);color:#D6E6F0;position:relative;z-index:1}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .promise{background:#173B52}}
+:root[data-theme="dark"] .promise{background:#173B52}
+.about-copy{display:flex;flex-direction:column;gap:22px;min-width:0}
+.about-copy p{color:var(--muted);font-size:18px;max-width:58ch}
+.checks{list-style:none;padding:0;margin:8px 0 0;display:grid;grid-template-columns:1fr 1fr;gap:12px 24px}
+.checks li{display:flex;gap:12px;align-items:flex-start;font-weight:500;font-size:16.5px}
+.checks li i{flex:none;display:grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--wash);color:var(--sage-ink);margin-top:1px}
+.checks li i .ico{width:15px;height:15px;stroke-width:2.6}
 
-    section {
-      padding: 80px 8%;
-      text-align: center;
-    }
+/* areas */
+.areas{display:grid;grid-template-columns:1.1fr .9fr;gap:20px;align-items:stretch}
+.area-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:40px;display:flex;flex-direction:column;gap:24px;min-width:0}
+.chips{display:flex;flex-wrap:wrap;gap:10px;list-style:none;padding:0;margin:0}
+.chips li{display:inline-flex;align-items:center;gap:8px;padding:10px 16px;border-radius:999px;background:var(--mist);font:500 15.5px/1 var(--f-display);color:var(--ink)}
+.chips li a{display:inline-flex;align-items:center;gap:8px;color:inherit;text-decoration:none}
+.chips li:has(a):hover{background:color-mix(in srgb,var(--teal) 16%,var(--mist))}
+.chips li .ico{width:16px;height:16px;color:var(--teal)}
+.chips li.more{background:transparent;border:1px dashed var(--line);color:var(--muted)}
+.area-side{border-radius:var(--r-lg);padding:40px;display:flex;flex-direction:column;justify-content:space-between;gap:28px;background:
+  radial-gradient(100% 80% at 100% 0%,color-mix(in srgb,var(--sage) 26%,transparent),transparent 60%),var(--wash);min-width:0}
+.area-side h3{font-size:28px;font-weight:500}
+.area-side p{color:var(--muted)}
+.big-phone{font:600 clamp(30px,3.4vw,40px)/1 var(--f-display);color:var(--blue);text-decoration:none;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
 
-    .white {
-      background: white;
-    }
+/* reviews */
+.reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.review{margin:0;background:var(--surface);border:1px solid var(--line);border-radius:var(--r-md);padding:32px 30px;display:flex;flex-direction:column;gap:22px;min-width:0}
+.review .q{font:500 64px/.6 var(--f-voice);color:var(--sage);height:26px}
+.review blockquote{margin:0;font-size:17.5px;line-height:1.6;color:var(--ink);flex:1}
+.review figcaption{display:flex;align-items:center;gap:12px;font:600 16px/1.2 var(--f-display);padding-top:20px;border-top:1px solid var(--line)}
+.review figcaption i{display:grid;place-items:center;width:42px;height:42px;border-radius:50%;background:var(--mist);color:var(--blue);font-style:normal;font-weight:600}
+.review figcaption span{display:block;font:500 13px/1.3 var(--f-body);color:var(--muted)}
 
-    .soft {
-      background: var(--soft);
-    }
+/* faq */
+.faq-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;align-items:start}
+.faq-grid .head{margin:0}
+.faq{display:flex;flex-direction:column;gap:12px;min-width:0}
+.faq details{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-md);transition:border-color .2s}
+.faq details[open]{border-color:color-mix(in srgb,var(--teal) 45%,var(--line))}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 26px;font:600 18.5px/1.35 var(--f-display)}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary .pm{flex:none;width:34px;height:34px;border-radius:50%;background:var(--mist);display:grid;place-items:center;color:var(--blue);transition:transform .25s}
+.faq details[open] .pm{transform:rotate(45deg)}
+.faq details p{padding:0 26px 24px;color:var(--muted);max-width:62ch}
+.faq details p a{color:var(--blue);font-weight:600}
 
-    h2 {
-      font-size: clamp(30px, 4vw, 42px);
-      color: var(--heading);
-      margin: 0 0 12px;
-      line-height: 1.18;
-    }
+/* contact */
+.contact{display:grid;grid-template-columns:.9fr 1.1fr;gap:20px}
+.contact-info{border-radius:var(--r-lg);padding:48px 44px;background:var(--blue);color:#fff;display:flex;flex-direction:column;gap:28px;min-width:0}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .contact-info{background:#173B52}}
+:root[data-theme="dark"] .contact-info{background:#173B52}
+.contact-info h2{font-size:clamp(34px,3.8vw,46px);font-weight:500}
+.contact-info h2 .voice{color:#CFE3C0}
+.contact-info>p{color:#D6E6F0;font-size:18px}
+.cinfo{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:18px}
+.cinfo li{display:flex;gap:16px;align-items:center}
+.cinfo li i{flex:none;display:grid;place-items:center;width:46px;height:46px;border-radius:14px;background:rgba(255,255,255,.12)}
+.cinfo small{display:block;font:500 13px/1.2 var(--f-display);color:#BFD5E3;letter-spacing:.06em;text-transform:uppercase}
+.cinfo a,.cinfo span{font:600 18px/1.3 var(--f-display);color:#fff;text-decoration:none;word-break:break-word}
+.license{margin-top:auto;padding-top:22px;border-top:1px solid rgba(255,255,255,.18);font-size:14.5px;color:#D6E6F0;display:flex;gap:10px;align-items:center}
+.form-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:44px;min-width:0}
+.form-card h3{font-size:28px;font-weight:500}
+.form-card>p{color:var(--muted);margin-top:8px}
+form.care{margin-top:28px;display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.field{display:flex;flex-direction:column;gap:8px;min-width:0}
+.field.full{grid-column:1/-1}
+.field label{font:600 14.5px/1 var(--f-display)}
+.field label span{font-weight:400;color:var(--muted)}
+.field input,.field select,.field textarea{width:100%;font:500 16px var(--f-body);color:var(--ink);background:var(--bg);border:1.5px solid var(--line);border-radius:14px;padding:14px 16px;min-height:52px;transition:border-color .2s,box-shadow .2s}
+.field textarea{min-height:120px;resize:vertical}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--teal);box-shadow:0 0 0 4px color-mix(in srgb,var(--teal) 18%,transparent)}
+.field .err{font-size:13.5px;color:#B3412E;min-height:0}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .field .err{color:#F09A86}}
+:root[data-theme="dark"] .field .err{color:#F09A86}
+.form-foot{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.form-foot small{color:var(--muted);font-size:14px;max-width:34ch}
+.sent{margin-top:28px;padding:28px;border-radius:var(--r-md);background:var(--wash);display:flex;gap:16px;align-items:flex-start}
+.sent i{flex:none;display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:var(--sage);color:#fff}
+.sent b{font:600 19px/1.3 var(--f-display);display:block;margin-bottom:4px}
+.sent p{color:var(--muted)}
 
-    .section-subtitle {
-      max-width: 800px;
-      margin: 0 auto;
-      font-size: 18px;
-      color: var(--muted);
-    }
+/* footer */
+footer{padding-block:64px 40px;border-top:1px solid var(--line)}
+.foot{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px}
+.foot p{color:var(--muted);font-size:15.5px;max-width:40ch;margin-top:18px}
+.foot h4{margin:0 0 14px;font:600 14px/1 var(--f-display);text-transform:uppercase;letter-spacing:.12em;color:var(--sage-ink)}
+.foot ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px}
+.foot ul a{text-decoration:none;color:var(--ink)}
+.foot ul a:hover{color:var(--teal)}
+.legal{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:14px;color:var(--muted)}
+.tagline{font:italic 400 19px/1.4 var(--f-voice);color:var(--teal);margin-top:14px}
 
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
-      gap: 24px;
-      margin-top: 38px;
-    }
+/* mobile call bar */
+.callbar{display:none;position:fixed;left:0;right:0;bottom:0;z-index:40;padding:10px max(14px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(14px,env(safe-area-inset-left,0px));background:color-mix(in srgb,var(--surface) 94%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-top:1px solid var(--line);gap:10px}
+.callbar .btn{flex:1;min-height:48px;padding:0 12px;font-size:15px}
 
-    .card {
-      background: white;
-      padding: 30px;
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      border: 1px solid var(--line);
-      text-align: left;
-    }
+/* responsive */
+@media (max-width:980px){
+  .hero-grid,.about,.areas,.faq-grid,.contact{grid-template-columns:1fr}
+  .hero-art{min-height:420px}
+  .services,.reviews{grid-template-columns:1fr 1fr}
+  .trust-grid{grid-template-columns:1fr 1fr}
+  .trust-item:nth-child(3){border-left:0}
+  .trust-item:nth-child(n+3){border-top:1px solid var(--line)}
+  .faq-grid{gap:32px}
+  .foot{grid-template-columns:1fr 1fr}
+  .foot>div:first-child{grid-column:1/-1}
+}
+@media (max-width:720px){
+  body{font-size:16px;padding-bottom:76px}
+  .callbar{display:flex}
+  section.band{padding-block:68px}
+  .hero{padding-block:14px 8px}
+  .hero-copy{padding:36px 24px 30px;gap:22px}
+  .hero-art{min-height:340px}
+  .f1{left:14px;top:auto;bottom:14px}.f2{display:none}
+  .services,.reviews,.steps,.checks{grid-template-columns:1fr}
+  .promise,.area-card,.area-side,.contact-info,.form-card{padding:32px 24px}
+  form.care{grid-template-columns:1fr}
+  .head{margin-bottom:32px}
+  .trust{padding-block:16px 40px}
+  .trust-item{padding:22px 16px}
+  .foot{grid-template-columns:1fr}
+  .finder-row .btn span{display:none}
+  .finder-row .btn{width:50px;padding:0}
+}
+@media (max-width:400px){.trust-grid{grid-template-columns:1fr}.trust-item+.trust-item{border-left:0;border-top:1px solid var(--line)}}
 
-    .card h3 {
-      color: var(--brand);
-      margin-top: 0;
-      font-size: 22px;
-      line-height: 1.25;
-    }
-
-    .card p:last-child {
-      margin-bottom: 0;
-    }
-
-    .icon {
-      font-size: 58px;
-      margin-bottom: 22px;
-      color: var(--brand);
-    }
-
-    .about-wrap,
-    .contact-wrap {
-      display: grid;
-      grid-template-columns: 1.1fr .9fr;
-      gap: 40px;
-      align-items: center;
-      text-align: left;
-    }
-
-    .about-text p {
-      font-size: 18px;
-      color: #334155;
-    }
-
-    .trust-box {
-      background: #ecfeff;
-      border-left: 5px solid var(--brand);
-      padding: 24px;
-      border-radius: 14px;
-      margin-top: 25px;
-    }
-
-    .photo-grid img {
-      width: 100%;
-      height: 280px;
-      object-fit: cover;
-      border-radius: var(--radius);
-      box-shadow: 0 8px 24px rgba(0,0,0,0.12);
-    }
-
-    .service-area-list {
-      columns: 2;
-      padding-left: 20px;
-      margin: 0;
-    }
-
-    .service-area-list li {
-      margin-bottom: 8px;
-    }
-
-    .review {
-      font-size: 17px;
-      font-style: italic;
-      color: #334155;
-    }
-
-    .review-name {
-      margin-top: 20px;
-      font-weight: bold;
-      color: var(--brand);
-      font-style: normal;
-    }
-
-    .cta {
-      background: linear-gradient(120deg, var(--brand), var(--brand-dark));
-      color: white;
-      border-radius: 28px;
-      padding: 55px 35px;
-      max-width: 1050px;
-      margin: auto;
-    }
-
-    .cta h2 {
-      color: white;
-    }
-
-    .contact-box {
-      background: white;
-      color: var(--text);
-      padding: 36px;
-      border-radius: 22px;
-      box-shadow: var(--shadow);
-      text-align: left;
-      border: 1px solid var(--line);
-    }
-
-    .contact-box a {
-      color: var(--brand);
-      font-weight: bold;
-    }
-
-    #contact,
-    #care-form {
-      scroll-margin-top: 150px;
-    }
-
-    .form {
-      display: grid;
-      gap: 14px;
-    }
-
-    .form label {
-      font-weight: 700;
-      color: var(--heading);
-    }
-
-    .form input,
-    .form textarea {
-      width: 100%;
-      padding: 13px 14px;
-      border: 1px solid #cbd5e1;
-      border-radius: 12px;
-      font: inherit;
-    }
-
-    .form textarea {
-      min-height: 110px;
-      resize: vertical;
-    }
-
-    .faq {
-      max-width: 950px;
-      margin: 38px auto 0;
-      text-align: left;
-    }
-
-    details {
-      background: white;
-      border: 1px solid var(--line);
-      border-radius: 16px;
-      padding: 18px 22px;
-      margin-bottom: 14px;
-      box-shadow: 0 4px 14px rgba(0,0,0,0.05);
-    }
-
-    summary {
-      cursor: pointer;
-      font-weight: 800;
-      color: var(--heading);
-    }
-
-    .small-note {
-      font-size: 14px;
-      color: #64748b;
-      margin-top: 14px;
-    }
-
-    footer {
-      background: var(--heading);
-      color: white;
-      text-align: center;
-      padding: 30px 8%;
-    }
-
-    footer a {
-      color: white;
-      font-weight: bold;
-    }
-
-    .mobile-sticky-call {
-      display: none;
-    }
-
-    @media (max-width: 900px) {
-      header {
-        display: block;
-        text-align: center;
-        padding: 8px 5%;
-      }
-
-      .logo img {
-        height: 82px;
-        margin: auto;
-      }
-
-      nav {
-        justify-content: center;
-        gap: 12px;
-        margin-top: 8px;
-      }
-
-      nav a {
-        font-size: 14px;
-      }
-
-      .nav-phone {
-        display: none;
-      }
-
-      .hero {
-        min-height: 620px;
-        text-align: center;
-        padding: 70px 6%;
-      }
-
-      .button-row {
-        justify-content: center;
-      }
-
-      .about-wrap,
-      .contact-wrap {
-        grid-template-columns: 1fr;
-      }
-
-      section {
-        padding: 60px 6%;
-      }
-
-      .service-area-list {
-        columns: 1;
-      }
-
-      .mobile-sticky-call {
-        display: block;
-        position: fixed;
-        left: 16px;
-        right: 16px;
-        bottom: 16px;
-        z-index: 50;
-        text-align: center;
-        background: var(--brand);
-        color: white;
-        padding: 14px;
-        border-radius: 999px;
-        text-decoration: none;
-        font-weight: 800;
-        box-shadow: 0 10px 25px rgba(0,0,0,.24);
-      }
-
-      footer {
-        padding-bottom: 85px;
-      }
-    }
-  </style>
+/* load-in */
+@keyframes rise{from{transform:translateY(14px);opacity:.001}to{transform:none;opacity:1}}
+.hero-copy>*{animation:rise .7s cubic-bezier(.2,.7,.2,1) both}
+.hero-copy>*:nth-child(2){animation-delay:.06s}.hero-copy>*:nth-child(3){animation-delay:.12s}.hero-copy>*:nth-child(4){animation-delay:.18s}.hero-copy>*:nth-child(5){animation-delay:.24s}
+.float{animation:rise .8s .35s cubic-bezier(.2,.7,.2,1) both}
+.f2{animation-delay:.5s}
+@keyframes sway{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(2deg)}}
+</style>
 </head>
-
 <body>
-  <div class="top-bar">
-    Call Ever Kind Home Care today: <a href="tel:9493913041">(949) 391-3041</a>
-  </div>
 
-  <header>
-    <div class="logo">
-      <a href="/" aria-label="Ever Kind Home Care homepage">
-        <img src="ek-logo-may18.png?v=2" alt="Ever Kind Home Care Logo" />
+</head>
+<body>
+
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></symbol>
+    <symbol id="i-utensils" viewBox="0 0 24 24"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/></symbol>
+    <symbol id="i-car" viewBox="0 0 24 24"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></symbol>
+    <symbol id="i-cup" viewBox="0 0 24 24"><path d="M17 8h1a4 4 0 1 1 0 8h-1"/><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"/><path d="M6 2v2M10 2v2M14 2v2"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></symbol>
+  </defs>
+</svg>
+
+<header class="site">
+  <div class="wrap">
+    <nav class="nav" aria-label="Main">
+      <a class="brand" href="#top" aria-label="Ever Kind Home Care, home">
+        <img src="/ek-icon.png" alt="" width="62" height="44">
+        <span class="brand-text"><b>Ever Kind</b><small>HOME CARE</small></span>
       </a>
-    </div>
-
-    <nav aria-label="Main navigation">
+      <div class="links">
+        <a href="#services">Services</a>
+        <a href="#how">How It Works</a>
+        <a href="#areas">Service Areas</a>
+        <a href="#about">About</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <div class="nav-cta">
+        <a class="nav-phone" href="tel:9493913041"><svg class="ico"><use href="#i-phone"/></svg>(949) 391-3041</a>
+        <a class="btn btn-primary" href="#contact">Request Care Info</a>
+      </div>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu"><svg class="ico"><use href="#i-menu"/></svg></button>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu" hidden>
       <a href="#services">Services</a>
+      <a href="#how">How It Works</a>
       <a href="#areas">Service Areas</a>
       <a href="#about">About</a>
       <a href="#reviews">Reviews</a>
       <a href="#faq">FAQ</a>
-      <a href="#contact">Contact</a>
-      <a class="nav-phone" href="tel:9493913041">Call Now</a>
-    </nav>
-  </header>
+      <a class="btn btn-primary" href="#contact">Request Care Info</a>
+    </div>
+  </div>
+</header>
 
-  <main>
-    <section class="hero" aria-label="Home care in Orange County">
-      <div class="hero-content">
-        <span class="eyebrow">Non-Medical Home Care in Orange County, CA</span>
-
-        <h1>Helping Your Loved Ones Stay Safe, Comfortable, and Independent at Home</h1>
-
-        <p>
-          Ever Kind Home Care provides reliable, compassionate non-medical home care
-          for families who want trusted support, clear communication, and peace of mind.
-        </p>
-
-        <div class="button-row">
-          <a class="button" href="tel:9493913041">Call for a Care Consultation</a>
-          <a class="button secondary" href="#care-form">Request Care Info</a>
-        </div>
-
-        <div class="trust-line">
-          ✓ California Licensed HCO #304700537 &nbsp;&nbsp; ✓ Bonded & Insured &nbsp;&nbsp; ✓ Family Focused Care
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <span class="badge"><i><svg class="ico"><use href="#i-check"/></svg></i>California Licensed Home Care Organization</span>
+        <h1>Compassionate care that keeps your loved one <span class="voice">always home.</span></h1>
+        <p class="lede">Reliable, non-medical home care for Orange County families who want trusted support, clear communication and peace of mind.</p>
+        <form class="finder" id="finder" novalidate>
+          <label for="area">Check if we serve your area</label>
+          <div class="finder-row">
+            <input id="area" name="area" type="text" inputmode="search" autocomplete="postal-code" placeholder="City or ZIP code">
+            <button class="btn btn-primary" type="submit" aria-label="Check my area"><span>Check</span><svg class="ico"><use href="#i-arrow"/></svg></button>
+          </div>
+          <p class="finder-out" id="finderOut" aria-live="polite">Try "Mission Viejo" or "92688".</p>
+        </form>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="tel:9493913041"><svg class="ico"><use href="#i-phone"/></svg>Call (949) 391-3041</a>
+          <a class="btn btn-ghost" href="#services">Explore our services</a>
         </div>
       </div>
-    </section>
 
-    <section class="white" aria-label="Trust features">
-      <h2>Trusted Home Care You Can Rely On</h2>
-      <p class="section-subtitle">
-        Dependable, compassionate, and professional in-home care services for families throughout Orange County.
-      </p>
-
-      <div class="grid">
-        <article class="card">
-          <div class="icon"><i class="fa-solid fa-user-nurse" aria-hidden="true"></i></div>
-          <h3>Licensed Home Care</h3>
-          <p>
-            We operate with professional standards and compliance to help provide
-            safe and dependable care services.
-          </p>
-          <p class="small-note"><strong>California Licensed Home Care Organization</strong><br>License #304700537</p>
-        </article>
-
-        <article class="card">
-          <div class="icon"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i></div>
-          <h3>Bonded & Insured</h3>
-          <p>
-            Added protection and peace of mind for families trusting us with the
-            care and support of their loved ones.
-          </p>
-        </article>
-
-        <article class="card">
-          <div class="icon"><i class="fa-solid fa-hands-holding-circle" aria-hidden="true"></i></div>
-          <h3>Compassionate Support</h3>
-          <p>
-            We focus on dignity, patience, communication, and respectful care for
-            every client and family we serve.
-          </p>
-        </article>
+      <div class="hero-art">
+        <img class="hero-photo" src="/hero-care.jpg" fetchpriority="high" alt="Smiling Ever Kind caregiver resting a hand on the shoulder of a senior woman seated in her armchair at home" width="1024" height="1024">
+        <div class="float f1"><span class="dot"><svg class="ico"><use href="#i-shield"/></svg></span><div><b>Bonded &amp; insured</b><span>HCO License #304700537</span></div></div>
+        <div class="float f2"><span class="dot"><svg class="ico"><use href="#i-heart"/></svg></span><div><b>Care built around your family</b><span>Flexible schedules, clear updates</span></div></div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="services" class="soft">
-      <h2>Home Care Services</h2>
-      <p class="section-subtitle">
-        Supportive non-medical care designed to help clients remain safe, comfortable, and cared for at home.
-      </p>
-
-      <div class="grid">
-        <article class="card">
-          <div class="icon"><i class="fa-solid fa-handshake-angle" aria-hidden="true"></i></div>
-          <h3>Companionship</h3>
-          <p>Friendly conversation, activities, supervision, emotional support, and help reducing isolation.</p>
-        </article>
-
-        <article class="card">
-          <div class="icon"><i class="fa-solid fa-hands-bubbles" aria-hidden="true"></i></div>
-          <h3>Personal Care</h3>
-          <p>Assistance with daily routines, dressing, hygiene, grooming, mobility support, and reminders.</p>
-        </article>
-
-        <article class="card">
-          <div class="icon"><i class="fa-solid fa-utensils" aria-hidden="true"></i></div>
-          <h3>Meal Preparation</h3>
-          <p>Help preparing meals, encouraging hydration, and supporting healthy daily eating routines.</p>
-        </article>
-
-        <article class="card">
-          <div class="icon"><i class="fa-solid fa-house" aria-hidden="true"></i></div>
-          <h3>Light Housekeeping</h3>
-          <p>Basic home support including tidying, laundry, dishes, and household organization.</p>
-        </article>
-
-        <article class="card">
-          <div class="icon"><i class="fa-solid fa-car-side" aria-hidden="true"></i></div>
-          <h3>Errands & Appointments</h3>
-          <p>Support with shopping, errands, appointments, reminders, and safe day-to-day routines.</p>
-        </article>
-
-        <article class="card">
-          <div class="icon"><i class="fa-solid fa-heart-circle-check" aria-hidden="true"></i></div>
-          <h3>Respite Care</h3>
-          <p>Dependable temporary relief and support for family caregivers who need rest or extra help.</p>
-        </article>
+  <section class="trust" aria-label="Why families trust us">
+    <div class="wrap">
+      <div class="trust-grid">
+        <div class="trust-item"><small>California HCO license</small><strong>#304700537</strong><p>Licensed Home Care Organization</p></div>
+        <div class="trust-item"><small>Protection for families</small><strong>Bonded <em>&amp;</em> insured</strong><p>Added peace of mind at home</p></div>
+        <div class="trust-item"><small>Communities served</small><strong>20<em>+</em> OC cities</strong><p>From Irvine to Dana Point</p></div>
+        <div class="trust-item"><small>Ways we help</small><strong>6 <em>services</em></strong><p>Companionship to respite care</p></div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="areas" class="white">
-      <div class="about-wrap">
-        <div class="about-text">
-          <h2>Home Care Across Orange County</h2>
-          <p>
-            Ever Kind Home Care supports seniors and families throughout Orange County with flexible
-            non-medical care built around each client’s needs.
-          </p>
-          <p>
-            If you are helping a parent, spouse, grandparent, or loved one stay safely at home,
-            call us to discuss the type of support that may be best.
-          </p>
+  <section class="band" id="services">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <span class="eyebrow">Home care services</span>
+          <h2>Everyday support, given <span class="voice">with kindness.</span></h2>
         </div>
+        <p>Non-medical care designed to help your loved one stay safe, comfortable and independent at home.</p>
+      </div>
+      <div class="services">
+        <article class="svc"><div class="svc-ico"><svg class="ico"><use href="#i-users"/></svg></div><h3>Companionship</h3><p>Friendly conversation, activities, supervision, emotional support and help reducing isolation.</p></article>
+        <article class="svc"><div class="svc-ico"><svg class="ico"><use href="#i-heart"/></svg></div><h3>Personal Care</h3><p>Help with daily routines, dressing, hygiene, grooming, mobility support and reminders.</p></article>
+        <article class="svc"><div class="svc-ico"><svg class="ico"><use href="#i-utensils"/></svg></div><h3>Meal Preparation</h3><p>Preparing meals, encouraging hydration and supporting healthy daily eating routines.</p></article>
+        <article class="svc"><div class="svc-ico"><svg class="ico"><use href="#i-spark"/></svg></div><h3>Light Housekeeping</h3><p>Tidying, laundry, dishes and household organization to keep home comfortable.</p></article>
+        <article class="svc"><div class="svc-ico"><svg class="ico"><use href="#i-car"/></svg></div><h3>Errands &amp; Appointments</h3><p>Shopping, errands, getting to appointments, reminders and safe day-to-day routines.</p></article>
+        <article class="svc"><div class="svc-ico"><svg class="ico"><use href="#i-cup"/></svg></div><h3>Respite Care</h3><p>Dependable temporary relief for family caregivers who need rest or an extra pair of hands.</p></article>
+      </div>
+      <p class="svc-note"><svg class="ico"><use href="#i-info"/></svg>Ever Kind provides non-medical home care. We do not provide skilled nursing, medical treatment or emergency medical services.</p>
+    </div>
+  </section>
 
-        <div class="card">
-          <h3>Areas We Serve</h3>
-          <ul class="service-area-list">
-            <li>Mission Viejo</li>
-            <li>Lake Forest</li>
-            <li>Rancho Santa Margarita</li>
-            <li>Irvine</li>
-            <li>Laguna Niguel</li>
-            <li>Aliso Viejo</li>
-            <li>Dana Point</li>
-            <li>San Juan Capistrano</li>
-            <li>Laguna Hills</li>
-            <li>Nearby Orange County communities</li>
+  <section class="band mist" id="how">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <span class="eyebrow">How it works</span>
+          <h2>Getting started is one phone call.</h2>
+        </div>
+        <p>Choosing care is a big decision. We keep the first steps simple and personal.</p>
+      </div>
+      <div class="steps">
+        <div class="step"><span class="step-n">Step 1</span><h3>Call us</h3><p>Reach us at <a href="tel:9493913041">(949) 391-3041</a> or send a request below. Tell us about your loved one and what's been hard lately.</p></div>
+        <div class="step"><span class="step-n">Step 2</span><h3>Talk through needs</h3><p>We discuss routines, schedules and preferences, and help you identify the right type of care support.</p></div>
+        <div class="step"><span class="step-n">Step 3</span><h3>Care begins at home</h3><p>Your caregiver starts on a schedule that fits, and we keep you updated with clear, regular communication.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="about">
+    <div class="wrap about">
+      <figure class="promise" style="margin:0">
+        <span class="eyebrow">Our promise</span>
+        <blockquote>We treat every client with patience, respect, and the level of care we would want for our own family.</blockquote>
+        <figcaption>The Ever Kind Home Care team</figcaption>
+      </figure>
+      <div class="about-copy">
+        <span class="eyebrow">Why families choose us</span>
+        <h2 class="h2">Care built on trust, respect and <span class="voice">peace of mind.</span></h2>
+        <p>Families want more than help. They want reliability, kindness, communication and genuine compassion. Our goal is to support each client with dignity while helping families feel confident their loved one is safe and cared for at home.</p>
+        <ul class="checks">
+          <li><i><svg class="ico"><use href="#i-check"/></svg></i>Dependable daily support</li>
+          <li><i><svg class="ico"><use href="#i-check"/></svg></i>Compassionate caregivers</li>
+          <li><i><svg class="ico"><use href="#i-check"/></svg></i>Clear communication with families</li>
+          <li><i><svg class="ico"><use href="#i-check"/></svg></i>Flexible care for each client</li>
+          <li><i><svg class="ico"><use href="#i-check"/></svg></i>Respectful, patient service</li>
+          <li><i><svg class="ico"><use href="#i-check"/></svg></i>Licensed, bonded &amp; insured</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="band mist" id="areas">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <span class="eyebrow">Service areas</span>
+          <h2>Home care across South Orange County.</h2>
+        </div>
+        <p>Helping a parent, spouse or grandparent stay safely at home? We support families throughout these communities and nearby.</p>
+      </div>
+      <div class="areas">
+        <div class="area-card">
+          <ul class="chips">
+            <li><a href="/mission-viejo-home-care.html"><svg class="ico"><use href="#i-pin"/></svg>Mission Viejo</a></li>
+            <li><a href="/lake-forest-home-care.html"><svg class="ico"><use href="#i-pin"/></svg>Lake Forest</a></li>
+            <li><a href="/rancho-santa-margarita-home-care.html"><svg class="ico"><use href="#i-pin"/></svg>Rancho Santa Margarita</a></li>
+            <li><a href="/irvine-home-care.html"><svg class="ico"><use href="#i-pin"/></svg>Irvine</a></li>
+            <li><a href="/laguna-niguel-home-care.html"><svg class="ico"><use href="#i-pin"/></svg>Laguna Niguel</a></li>
+            <li><a href="/aliso-viejo-home-care.html"><svg class="ico"><use href="#i-pin"/></svg>Aliso Viejo</a></li>
+            <li><a href="/dana-point-home-care.html"><svg class="ico"><use href="#i-pin"/></svg>Dana Point</a></li>
+            <li><a href="/san-juan-capistrano-home-care.html"><svg class="ico"><use href="#i-pin"/></svg>San Juan Capistrano</a></li>
+            <li><svg class="ico"><use href="#i-pin"/></svg>Laguna Hills</li>
+            <li class="more">+ Nearby Orange County communities</li>
           </ul>
         </div>
-      </div>
-    </section>
-
-    <section id="about" class="soft">
-      <div class="about-wrap">
-        <div class="about-text">
-          <h2>Care Built Around Trust, Respect, and Peace of Mind</h2>
-
-          <p>
-            Choosing care for a loved one is a big decision. At Ever Kind Home Care,
-            we understand families want more than help — they want reliability,
-            kindness, communication, and genuine compassion.
-          </p>
-
-          <p>
-            Our goal is to support each client with dignity while helping families
-            feel confident their loved one is safe and cared for at home.
-          </p>
-
-          <div class="trust-box">
-            <strong>Our promise:</strong> We treat every client with patience,
-            respect, and the level of care we would want for our own family.
+        <div class="area-side">
+          <div style="display:flex;flex-direction:column;gap:12px">
+            <h3>Don't see your city?</h3>
+            <p>Call us anyway. We'll talk through your situation and let you know how we can help.</p>
           </div>
-        </div>
-
-        <div class="card">
-          <h3>Why Families Choose Ever Kind Home Care</h3>
-          <p>✓ Dependable daily support</p>
-          <p>✓ Compassionate caregiver approach</p>
-          <p>✓ Clear communication with families</p>
-          <p>✓ Flexible care based on client needs</p>
-          <p>✓ Respectful, patient, and professional service</p>
+          <a class="big-phone" href="tel:9493913041">(949) 391-3041</a>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="white">
-      <h2>Compassionate Care in Every Visit</h2>
-      <p class="section-subtitle">
-        Warm, respectful support that helps clients feel comfortable and cared for.
-      </p>
-
-      <div class="grid photo-grid">
-        <img src="care1.jpg" alt="Professional caregiver helping elderly woman at home" loading="lazy" />
-        <img src="care87.png" alt="Compassionate companionship care for senior woman" loading="lazy" />
-        <img src="care3.jpg" alt="Non-medical home care support for elderly client" loading="lazy" />
+  <section class="band" id="reviews">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <span class="eyebrow">What families say</span>
+          <h2>Trust is earned, <span class="voice">one visit at a time.</span></h2>
+        </div>
       </div>
-    </section>
-
-    <section id="reviews" class="soft">
-      <h2>What Families Say</h2>
-      <p class="section-subtitle">
-        Trust is earned through dependable care, compassion, and communication.
-      </p>
-
-      <div class="grid">
-        <article class="card">
-          <p class="review">
-            “Great experience overall. The staff was caring, attentive, and always willing to help. 
-            It was comforting knowing our loved one was in good hands.”
-          </p>
-          <p class="review-name">— Ryan J.</p>
-        </article>
-
-        <article class="card">
-          <p class="review">
-            “Very happy with Ever Kind Home Care. The team was friendly, helpful, and made finding the right caregiver stress-free. 
-             Highly recommend their services.”
-          </p>
-          <p class="review-name">— James F.</p>
-        </article>
-
-        <article class="card">
-          <p class="review">
-            “The caregivers were patient, kind, and always on time. Communication was great and the whole experience felt very personal and supportive.”
-          </p>
-          <p class="review-name">— Soheil S.</p>
-        </article>
+      <div class="reviews">
+        <figure class="review"><span class="q" aria-hidden="true">&ldquo;</span><blockquote>Great experience overall. The staff was caring, attentive, and always willing to help. It was comforting knowing our loved one was in good hands.</blockquote><figcaption><i>R</i><div>Ryan J.</div></figcaption></figure>
+        <figure class="review"><span class="q" aria-hidden="true">&ldquo;</span><blockquote>Very happy with Ever Kind Home Care. The team was friendly, helpful, and made finding the right caregiver stress-free. Highly recommend their services.</blockquote><figcaption><i>J</i><div>James F.</div></figcaption></figure>
+        <figure class="review"><span class="q" aria-hidden="true">&ldquo;</span><blockquote>The caregivers were patient, kind, and always on time. Communication was great and the whole experience felt very personal and supportive.</blockquote><figcaption><i>S</i><div>Soheil S.</div></figcaption></figure>
       </div>
+    </div>
+  </section>
 
-     
-      </p>
-    </section>
-
-    <section id="faq" class="white">
-      <h2>Home Care Questions</h2>
-      <p class="section-subtitle">
-        Common questions families ask before starting non-medical home care.
-      </p>
-
+  <section class="band mist" id="faq">
+    <div class="wrap faq-grid">
+      <div class="head">
+        <div>
+          <span class="eyebrow">Questions</span>
+          <h2>Home care questions, answered.</h2>
+          <p>Common questions families ask before starting non-medical home care.</p>
+        </div>
+      </div>
       <div class="faq">
-        <details>
-          <summary>What type of care does Ever Kind Home Care provide?</summary>
-          <p>
-            We provide non-medical home care, including companionship, personal care,
-            meal preparation, light housekeeping, errands, appointments, respite care,
-            and daily living support.
-          </p>
-        </details>
-
-        <details>
-          <summary>What areas do you serve?</summary>
-          <p>
-            We serve families throughout Orange County, including Mission Viejo, Lake Forest,
-            Rancho Santa Margarita, Irvine, Laguna Niguel, Aliso Viejo, Dana Point,
-            San Juan Capistrano, and nearby communities.
-          </p>
-        </details>
-
-        <details>
-          <summary>How do we get started?</summary>
-          <p>
-            Call us at <a href="tel:9493913041">(949) 391-3041</a> to discuss your loved one’s needs.
-            We can talk through the situation and help identify the right type of care support.
-          </p>
-        </details>
-
-        <details>
-          <summary>Is this medical care?</summary>
-          <p>
-            No. Ever Kind Home Care provides non-medical home care. We do not provide skilled nursing,
-            medical treatment, or emergency medical services.
-          </p>
-        </details>
+        <details open><summary>What type of care does Ever Kind Home Care provide?<span class="pm"><svg class="ico"><use href="#i-plus"/></svg></span></summary><p>We provide non-medical home care, including companionship, personal care, meal preparation, light housekeeping, errands, appointments, respite care and daily living support.</p></details>
+        <details><summary>What areas do you serve?<span class="pm"><svg class="ico"><use href="#i-plus"/></svg></span></summary><p>We serve families throughout Orange County, including Mission Viejo, Lake Forest, Rancho Santa Margarita, Irvine, Laguna Niguel, Aliso Viejo, Dana Point, San Juan Capistrano, Laguna Hills and nearby communities.</p></details>
+        <details><summary>How do we get started?<span class="pm"><svg class="ico"><use href="#i-plus"/></svg></span></summary><p>Call us at <a href="tel:9493913041">(949) 391-3041</a> to discuss your loved one's needs. We'll talk through the situation and help identify the right type of care support.</p></details>
+        <details><summary>Is this medical care?<span class="pm"><svg class="ico"><use href="#i-plus"/></svg></span></summary><p>No. Ever Kind Home Care provides non-medical home care. We do not provide skilled nursing, medical treatment or emergency medical services.</p></details>
+        <details><summary>Are you licensed and insured?<span class="pm"><svg class="ico"><use href="#i-plus"/></svg></span></summary><p>Yes. Ever Kind is a California Licensed Home Care Organization, License #304700537, and we are bonded and insured.</p></details>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="contact" class="soft">
-      <div class="cta">
-        <h2>Ready to Talk About Care?</h2>
-        <p>Contact Ever Kind Home Care today to learn how we can support your family.</p>
-        <div class="button-row" style="justify-content:center;">
-          <a class="button secondary" href="tel:9493913041">Call Now: (949) 391-3041</a>
-          <a class="button" href="#care-form">Request Care Information</a>
+  <section class="band" id="contact">
+    <div class="wrap contact">
+      <div class="contact-info">
+        <h2>Ready to talk about <span class="voice">care?</span></h2>
+        <p>Reach out today to discuss your home care needs and schedule a consultation.</p>
+        <ul class="cinfo">
+          <li><i><svg class="ico"><use href="#i-phone"/></svg></i><div><small>Phone</small><a href="tel:9493913041">(949) 391-3041</a></div></li>
+          <li><i><svg class="ico"><use href="#i-mail"/></svg></i><div><small>Email</small><a href="mailto:admin@everkindhc.com">admin@everkindhc.com</a></div></li>
+          <li><i><svg class="ico"><use href="#i-pin"/></svg></i><div><small>Service area</small><span>Orange County, California</span></div></li>
+        </ul>
+        <p class="license"><svg class="ico"><use href="#i-shield"/></svg>California Licensed HCO #304700537</p>
+      </div>
+      <div class="form-card">
+        <h3>Request care info</h3>
+        <p>Fill out the form and our team will follow up as soon as possible.</p>
+        <form class="care" id="careForm" action="https://formspree.io/f/mnjyjkgw" method="POST" novalidate>
+          <input type="hidden" name="_subject" value="New Ever Kind Home Care Website Lead">
+          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+          <div class="field"><label for="f-name">Your name</label><input id="f-name" name="Name" autocomplete="name" required><span class="err" id="e-name"></span></div>
+          <div class="field"><label for="f-phone">Phone</label><input id="f-phone" name="Phone" type="tel" autocomplete="tel" required><span class="err" id="e-phone"></span></div>
+          <div class="field"><label for="f-email">Email <span>(optional)</span></label><input id="f-email" name="email" type="email" autocomplete="email"><span class="err" id="e-email"></span></div>
+          <div class="field"><label for="f-city">City</label>
+            <select id="f-city" name="City">
+              <option value="">Choose a city</option>
+              <option>Mission Viejo</option><option>Lake Forest</option><option>Rancho Santa Margarita</option><option>Irvine</option><option>Laguna Niguel</option><option>Aliso Viejo</option><option>Dana Point</option><option>San Juan Capistrano</option><option>Laguna Hills</option><option>Other Orange County city</option>
+            </select><span class="err"></span></div>
+          <div class="field full"><label for="f-needs">Care needs</label><textarea id="f-needs" name="message" placeholder="Who is the care for, and what kind of help would make the biggest difference?"></textarea></div>
+          <div class="form-foot">
+            <small>We'll only use your details to follow up about care.</small>
+            <button class="btn btn-primary" type="submit">Send request<svg class="ico"><use href="#i-arrow"/></svg></button>
+          </div>
+        </form>
+        <div class="sent" id="sent" hidden>
+          <i><svg class="ico"><use href="#i-check"/></svg></i>
+          <div><b id="sentTitle">Thank you.</b><p>Our team will follow up as soon as possible. If it's urgent, please call <a href="tel:9493913041">(949) 391-3041</a>.</p></div>
         </div>
       </div>
+    </div>
+  </section>
+</main>
 
-      <div class="contact-wrap" style="margin-top:40px;">
-        <div class="contact-box">
-          <h2>Contact Information</h2>
-          <p><strong>Phone:</strong> <a href="tel:9493913041">(949) 391-3041</a></p>
-          <p><strong>Email:</strong> <a href="mailto:admin@everkindhc.com">admin@everkindhc.com</a></p>
-          <p><strong>Company:</strong> Ever Kind Home Care</p>
-          <p><strong>Service Area:</strong> Orange County, California</p>
-          <p><strong>California HCO License #304700537</strong></p>
-          <p>
-            Reach out today to discuss your home care needs and schedule a consultation.
-          </p>
-        </div>
-
-        <div class="contact-box" id="care-form">
-          <h2>Request Care Info</h2>
-          <p>
-            Fill out the form below and our team will follow up as soon as possible.
-          </p>
-
-          <form class="form" action="https://formspree.io/f/mnjyjkgw" method="POST">
-            <div>
-              <label for="name">Name</label>
-              <input id="name" name="Name" type="text" autocomplete="name" required />
-            </div>
-
-            <div>
-              <label for="phone">Phone</label>
-              <input id="phone" name="Phone" type="tel" autocomplete="tel" required />
-            </div>
-
-            <div>
-              <label for="email">Email</label>
-              <input id="email" name="email" type="email" autocomplete="email" required />
-            </div>
-
-            <div>
-              <label for="city">City</label>
-              <input id="city" name="City" type="text" autocomplete="address-level2" />
-            </div>
-
-            <div>
-              <label for="message">Care Needs</label>
-              <textarea id="message" name="message" placeholder="Tell us what kind of care your family is looking for." required></textarea>
-            </div>
-
-            <input type="hidden" name="_subject" value="New Ever Kind Home Care Website Lead" />
-            <button class="button" type="submit">Send Request</button>
-          </form>
-        </div>
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <a class="brand" href="#top" aria-label="Ever Kind Home Care, back to top">
+          <img src="/ek-icon.png" alt="" width="62" height="44">
+          <span class="brand-text"><b>Ever Kind</b><small>HOME CARE</small></span>
+        </a>
+        <p class="tagline">Compassionate care. Trusted support. Always home.</p>
+        <p>Non-medical home care services in Orange County, California.</p>
       </div>
-    </section>
-  </main>
+      <div>
+        <h4>Services</h4>
+        <ul><li><a href="#services">Companionship</a></li><li><a href="#services">Personal Care</a></li><li><a href="#services">Meal Preparation</a></li><li><a href="#services">Respite Care</a></li></ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul><li><a href="tel:9493913041">(949) 391-3041</a></li><li><a href="mailto:admin@everkindhc.com">admin@everkindhc.com</a></li><li><a href="#areas">Service areas</a></li><li><a href="#faq">FAQ</a></li></ul>
+      </div>
+    </div>
+    <div class="legal"><span>&copy; 2026 Ever Kind Home Care. All rights reserved.</span><span>California Licensed Home Care Organization #304700537</span></div>
+  </div>
+</footer>
 
-  <footer>
-    <p>© 2026 Ever Kind Home Care. All rights reserved.</p>
-    <p>
-      <a href="tel:9493913041">(949) 391-3041</a> |
-      <a href="mailto:admin@everkindhc.com">admin@everkindhc.com</a>
-    </p>
-    <p class="small-note" style="color:#cbd5e1;">Non-medical home care services in Orange County, California.</p>
-    <p class="small-note" style="color:#cbd5e1;">California Licensed Home Care Organization #304700537</p>
-  </footer>
+<div class="callbar">
+  <a class="btn btn-primary" href="tel:9493913041"><svg class="ico"><use href="#i-phone"/></svg>Call now</a>
+  <a class="btn btn-ghost" href="#contact">Request info</a>
+</div>
 
-  <a class="mobile-sticky-call" href="tel:9493913041">Call Ever Kind Home Care</a>
+<script>
+(function(){
+  // mobile menu
+  var btn=document.getElementById('menuBtn'),menu=document.getElementById('mobileMenu');
+  btn.addEventListener('click',function(){
+    var open=menu.hidden; menu.hidden=!open;
+    btn.setAttribute('aria-expanded',String(open));
+    btn.setAttribute('aria-label',open?'Close menu':'Open menu');
+    btn.querySelector('use').setAttribute('href',open?'#i-x':'#i-menu');
+  });
+  menu.addEventListener('click',function(e){ if(e.target.closest('a')){menu.hidden=true;btn.setAttribute('aria-expanded','false');btn.querySelector('use').setAttribute('href','#i-menu');} });
+
+  // service-area checker
+  var cities={
+    'mission viejo':['92690','92691','92692'],
+    'lake forest':['92630','92609','92610'],
+    'rancho santa margarita':['92688','92679'],
+    'irvine':['92602','92603','92604','92606','92612','92614','92617','92618','92620'],
+    'laguna niguel':['92677'],
+    'aliso viejo':['92656'],
+    'dana point':['92629','92624'],
+    'san juan capistrano':['92675'],
+    'laguna hills':['92653']
+  };
+  var names={'mission viejo':'Mission Viejo','lake forest':'Lake Forest','rancho santa margarita':'Rancho Santa Margarita','irvine':'Irvine','laguna niguel':'Laguna Niguel','aliso viejo':'Aliso Viejo','dana point':'Dana Point','san juan capistrano':'San Juan Capistrano','laguna hills':'Laguna Hills'};
+  var alias={'rsm':'rancho santa margarita','sjc':'san juan capistrano','capistrano beach':'dana point','ladera ranch':null};
+  var f=document.getElementById('finder'),inp=document.getElementById('area'),out=document.getElementById('finderOut');
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    var v=inp.value.trim().toLowerCase().replace(/,?\s*(ca|california)\.?$/,'').trim();
+    out.className='finder-out';
+    if(!v){out.textContent='Enter a city name or a 5-digit ZIP code.';inp.focus();return;}
+    var hit=null;
+    if(/^\d{5}$/.test(v)){ for(var c in cities){ if(cities[c].indexOf(v)>-1){hit=c;break;} } }
+    else { if(alias.hasOwnProperty(v)&&alias[v]) v=alias[v]; if(cities[v]) hit=v; }
+    if(hit){ out.classList.add('ok'); out.textContent='Yes, we serve '+names[hit]+'. Call (949) 391-3041 to talk about care.'; return; }
+    var oc=/^9(26|27|28)\d\d$/.test(v)||/^90(62\d|63\d|680|720|740|742|743)$/.test(v);
+    var word=!/^\d+$/.test(v);
+    if(oc||word){ out.classList.add('maybe'); out.textContent='We also help families in nearby Orange County communities. Call (949) 391-3041 to confirm coverage.'; }
+    else { out.textContent='That ZIP looks outside Orange County. Give us a call and we’ll do our best to point you in the right direction.'; }
+  });
+
+  // contact form: sends to Formspree
+  var form=document.getElementById('careForm'),sent=document.getElementById('sent');
+  function setErr(id,msg){var el=document.getElementById(id);if(el)el.textContent=msg;}
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var name=form.elements['Name'].value.trim(),phone=form.elements['Phone'].value.replace(/\D/g,''),email=form.elements['email'].value.trim();
+    var ok=true;
+    setErr('e-name','');setErr('e-phone','');setErr('e-email','');
+    if(!name){setErr('e-name','Please enter your name.');ok=false;}
+    if(phone.length<10){setErr('e-phone','Enter a 10-digit phone number so we can call you back.');ok=false;}
+    if(email&&!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){setErr('e-email','Check the email address, e.g. name@example.com.');ok=false;}
+    if(!ok){var first=form.querySelector('.err:not(:empty)');if(first)first.previousElementSibling.focus();return;}
+    var btn=form.querySelector('button[type=submit]'),label=btn.innerHTML;
+    btn.disabled=true;btn.textContent='Sending\u2026';
+    fetch(form.action,{method:'POST',body:new FormData(form),headers:{'Accept':'application/json'}})
+      .then(function(r){ if(!r.ok) throw new Error('bad'); 
+        document.getElementById('sentTitle').textContent='Thank you, '+name.split(' ')[0]+'.';
+        form.hidden=true;sent.hidden=false; })
+      .catch(function(){ btn.disabled=false;btn.innerHTML=label;
+        setErr('e-name','We couldn\u2019t send your request. Please try again, or call (949) 391-3041.'); });
+  });
+})();
+</script>
+
 </body>
 </html>
