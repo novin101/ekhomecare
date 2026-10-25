@@ -3,7 +3,7 @@ main = "worker.js"
 compatibility_date = "2026-10-01"
 
 [vars]
-PIXEL_ID = ""   # paste your Pixel / dataset ID
+PIXEL_ID = "2945933582410765"
 ALLOWED_ORIGINS = "https://everkindhc.com,https://www.everkindhc.com"
 GRAPH_VERSION = "v26.0"
 # TEST_EVENT_CODE = ""   # uncomment while testing in Events Manager
