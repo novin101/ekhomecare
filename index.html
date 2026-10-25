@@ -417,6 +417,8 @@ footer{padding-block:64px 40px;border-top:1px solid var(--line)}
 .f2{animation-delay:.5s}
 @keyframes sway{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(2deg)}}
 </style>
+  <!-- Meta Pixel + Conversions API -->
+  <script src="/meta.js" defer></script>
 </head>
 <body>
 
@@ -781,6 +783,7 @@ footer{padding-block:64px 40px;border-top:1px solid var(--line)}
     btn.disabled=true;btn.textContent='Sending\u2026';
     fetch(form.action,{method:'POST',body:new FormData(form),headers:{'Accept':'application/json'}})
       .then(function(r){ if(!r.ok) throw new Error('bad'); 
+        if(window.ekTrack) window.ekTrack('Lead',{email:email,phone:phone,city:form.elements['City'].value});
         document.getElementById('sentTitle').textContent='Thank you, '+name.split(' ')[0]+'.';
         form.hidden=true;sent.hidden=false; })
       .catch(function(){ btn.disabled=false;btn.innerHTML=label;

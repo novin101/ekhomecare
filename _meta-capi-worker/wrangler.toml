@@ -1,0 +1,12 @@
+name = "ek-meta-capi"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+PIXEL_ID = ""   # paste your Pixel / dataset ID
+ALLOWED_ORIGINS = "https://everkindhc.com,https://www.everkindhc.com"
+GRAPH_VERSION = "v26.0"
+# TEST_EVENT_CODE = ""   # uncomment while testing in Events Manager
+
+# The access token is a secret, never put it in this file. Set it with:
+#   npx wrangler secret put META_ACCESS_TOKEN
